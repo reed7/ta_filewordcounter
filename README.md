@@ -21,7 +21,7 @@ java -jar -Dlog4j.configurationFile=log4j.properties filewordcount-[version]-jar
 -Xmx4G
 
 # Build the source code
-mvn clean install
+mvn package
 
 # Sample result output
 2018-06-10 12:57:12,077 c.t.e.f.FileWordCounter [main] Counting finish in 246793 ms! Found 2125960 different words on the file.<br/>
