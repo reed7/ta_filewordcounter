@@ -1,39 +1,13 @@
-2018-06-10 14:08:49,062 c.t.e.f.FileWordCounter [main] FileWordCounter initialized with following property:[number of workers = 16, MAX_CHUNK_SIZE = 38178KB, filePath = /Users/wzhong/Desktop/TA/abc]
-2018-06-10 14:08:49,067 c.t.e.f.FileWordCounter [main] File size less than 10MB, single threaded mode used.
-2018-06-10 14:08:49,069 c.t.e.f.FileWordCounter [main] Counting finish in 2 ms! Found 101 different words on the file.
-2018-06-10 14:08:49,105 c.t.e.f.Main [main] 0: 3
-2018-06-10 14:08:49,105 c.t.e.f.Main [main] 7: 2
-2018-06-10 14:08:49,105 c.t.e.f.Main [main] s: 2
-2018-06-10 14:08:49,105 c.t.e.f.Main [main] 90: 1
-2018-06-10 14:08:49,105 c.t.e.f.Main [main] 93: 1
-2018-06-10 14:08:49,105 c.t.e.f.Main [main] 94: 1
-2018-06-10 14:08:49,106 c.t.e.f.Main [main] 92: 1
-2018-06-10 14:08:49,106 c.t.e.f.Main [main] 96: 1
-2018-06-10 14:08:49,106 c.t.e.f.Main [main] 97: 1
-2018-06-10 14:08:49,106 c.t.e.f.Main [main] 87: 1
-2018-06-10 14:12:56,218 c.t.e.f.FileWordCounter [main] FileWordCounter initialized with following property:[number of workers = 16, MAX_CHUNK_SIZE = 38178KB, filePath = /Users/wzhong/Desktop/TA/abc]
-2018-06-10 14:12:56,222 c.t.e.f.FileWordCounter [main] File size less than 10MB, single threaded mode used.
-2018-06-10 14:12:56,225 c.t.e.f.FileWordCounter [main] Counting finish in 3 ms! Found 101 different words on the file.
-2018-06-10 14:12:56,261 c.t.e.f.Main [main] 0: 3
-2018-06-10 14:12:56,261 c.t.e.f.Main [main] 7: 2
-2018-06-10 14:12:56,261 c.t.e.f.Main [main] s: 2
-2018-06-10 14:12:56,261 c.t.e.f.Main [main] 90: 1
-2018-06-10 14:12:56,261 c.t.e.f.Main [main] 93: 1
-2018-06-10 14:12:56,262 c.t.e.f.Main [main] 94: 1
-2018-06-10 14:12:56,262 c.t.e.f.Main [main] 92: 1
-2018-06-10 14:12:56,262 c.t.e.f.Main [main] 96: 1
-2018-06-10 14:12:56,262 c.t.e.f.Main [main] 97: 1
-2018-06-10 14:12:56,262 c.t.e.f.Main [main] 87: 1
-2018-06-10 16:02:30,722 c.t.e.f.FileWordCounter [main] FileWordCounter initialized with following property:[number of workers = 16, MAX_CHUNK_SIZE = 38178KB, filePath = /Users/wzhong/Desktop/TA/abc]
-2018-06-10 16:02:30,727 c.t.e.f.FileWordCounter [main] File size less than 10MB, single threaded mode used.
-2018-06-10 16:02:30,730 c.t.e.f.FileWordCounter [main] Counting finish in 3 ms! Found 101 different words on the file.
-2018-06-10 16:02:30,765 c.t.e.f.Main [main] 0: 3
-2018-06-10 16:02:30,765 c.t.e.f.Main [main] 7: 2
-2018-06-10 16:02:30,765 c.t.e.f.Main [main] s: 2
-2018-06-10 16:02:30,765 c.t.e.f.Main [main] 90: 1
-2018-06-10 16:02:30,766 c.t.e.f.Main [main] 93: 1
-2018-06-10 16:02:30,766 c.t.e.f.Main [main] 94: 1
-2018-06-10 16:02:30,766 c.t.e.f.Main [main] 92: 1
-2018-06-10 16:02:30,766 c.t.e.f.Main [main] 96: 1
-2018-06-10 16:02:30,766 c.t.e.f.Main [main] 97: 1
-2018-06-10 16:02:30,766 c.t.e.f.Main [main] 87: 1
+2018-06-10 16:04:14,040 c.t.e.f.FileWordCounter [main] FileWordCounter initialized with following property:[number of workers = 16, MAX_CHUNK_SIZE = 38178KB, filePath = /Users/wzhong/Desktop/TA/abc]
+2018-06-10 16:04:14,045 c.t.e.f.FileWordCounter [main] File size less than 10MB, single threaded mode used.
+2018-06-10 16:04:14,048 c.t.e.f.FileWordCounter [main] Counting finish in 3 ms! Found 101 different words on the file.
+2018-06-10 16:04:14,085 c.t.e.f.Main [main] 0: 3
+2018-06-10 16:04:14,085 c.t.e.f.Main [main] 7: 2
+2018-06-10 16:04:14,085 c.t.e.f.Main [main] s: 2
+2018-06-10 16:04:14,085 c.t.e.f.Main [main] 90: 1
+2018-06-10 16:04:14,085 c.t.e.f.Main [main] 93: 1
+2018-06-10 16:04:14,086 c.t.e.f.Main [main] 94: 1
+2018-06-10 16:04:14,086 c.t.e.f.Main [main] 92: 1
+2018-06-10 16:04:14,086 c.t.e.f.Main [main] 96: 1
+2018-06-10 16:04:14,086 c.t.e.f.Main [main] 97: 1
+2018-06-10 16:04:14,086 c.t.e.f.Main [main] 87: 1
