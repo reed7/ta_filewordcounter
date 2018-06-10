@@ -11,7 +11,7 @@ java -jar -Dlog4j.configurationFile=log4j.properties filewordcount-[version]-jar
 ## Mandatory option:
 -f,--file <arg>      File to be processed
 
-##Optional options:
+## Optional options:
 -o,--order <arg>     Specifies the order in which results are displayed: [inc]reasing | [dec]reasing.Default "dec".
 -W,--workers <arg>   Number of workers.Default 2xCPU_cores
 -w,--words <arg>     Number of top words statistics to show.Default 10.
