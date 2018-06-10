@@ -76,7 +76,7 @@ public class TestUtils {
             fos.write("123 123 12'3 456 789 10".getBytes());
             RandomAccessFile raf = new RandomAccessFile(file, "r");
 
-            Utils.countWordWithinRange(raf, result);
+            Utils.countWord(raf, result);
         }
 
         Assert.assertEquals(6, result.size());

@@ -21,8 +21,8 @@ public class Utils {
      * @param result count result: Map
      * @throws IOException
      */
-    public static void countWordWithinRange(RandomAccessFile fileToCount,
-                                            Map<String, AtomicInteger> result) throws IOException {
+    public static void countWord(RandomAccessFile fileToCount,
+                                 Map<String, AtomicInteger> result) throws IOException {
         long start = 0;
         long end = fileToCount.length();
 
