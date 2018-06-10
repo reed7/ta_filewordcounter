@@ -21,12 +21,12 @@ public class Utils {
      * @param result count result: Map
      * @throws IOException
      */
-    public static void countWord(RandomAccessFile fileToCount,
-                                 Map<String, AtomicInteger> result) throws IOException {
+    public static void countWordWithinRange(RandomAccessFile fileToCount,
+                                            Map<String, AtomicInteger> result) throws IOException {
         long start = 0;
         long end = fileToCount.length();
 
-        countWord(new BatchRange(start, end), fileToCount, result);
+        countWordWithinRange(new BatchRange(start, end), fileToCount, result);
     }
 
     /**
@@ -36,8 +36,8 @@ public class Utils {
      * @param result count result: Map
      * @throws IOException
      */
-    public static void countWord(BatchRange range, RandomAccessFile fileToCount,
-                                 Map<String, AtomicInteger> result) throws IOException {
+    public static void countWordWithinRange(BatchRange range, RandomAccessFile fileToCount,
+                                            Map<String, AtomicInteger> result) throws IOException {
         long start = range.getStart();
         long end = range.getEnd();
 
@@ -55,6 +55,7 @@ public class Utils {
         for(String word : words) {
             try {
                 word = word.toLowerCase();
+
                 result.putIfAbsent(word, new AtomicInteger(1)).incrementAndGet();
             } catch (NullPointerException ne) {
                 LOGGER.debug("Adding new word {} into result.", word);
@@ -64,7 +65,7 @@ public class Utils {
     }
 
     /**
-     * Process the counting result based on order type and number of results
+     * Process the counting result based on specified ordering and number of results
      * @param result The counting result: Map
      * @param topN Number of results to return: int
      * @param order The order of the results: String

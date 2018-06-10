@@ -1,7 +1,5 @@
 package com.tripadvisor.excercise.filewordcount;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -78,7 +76,7 @@ public class TestUtils {
             fos.write("123 123 12'3 456 789 10".getBytes());
             RandomAccessFile raf = new RandomAccessFile(file, "r");
 
-            Utils.countWord(raf, result);
+            Utils.countWordWithinRange(raf, result);
         }
 
         Assert.assertEquals(6, result.size());
@@ -99,7 +97,7 @@ public class TestUtils {
             fos.write("123 123 456 789 456 456 10 222 123".getBytes());
             RandomAccessFile raf = new RandomAccessFile(file, "r");
 
-            Utils.countWord(range, raf, result);
+            Utils.countWordWithinRange(range, raf, result);
         }
 
         Assert.assertEquals(4, result.size());

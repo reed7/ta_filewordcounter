@@ -30,7 +30,7 @@ public class WordCounter implements Runnable {
 
         try {
             long startTs = System.currentTimeMillis();
-            Utils.countWord(this.range, raFileToCount, this.countResult);
+            Utils.countWordWithinRange(this.range, raFileToCount, this.countResult);
             long duration = System.currentTimeMillis() - startTs;
             LOGGER.info("Range [{}, {}] finished in {} ms!",
                     range.getStart(), range.getEnd(), duration);

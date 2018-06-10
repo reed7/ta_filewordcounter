@@ -79,7 +79,7 @@ public class FileWordCounter {
                     SINGLE_THREADED_VALVE/1024/1024);
 
             countResult = new HashMap<>();
-            Utils.countWord(fileToCount, countResult);
+            Utils.countWordWithinRange(fileToCount, countResult);
 
         } else {
 
