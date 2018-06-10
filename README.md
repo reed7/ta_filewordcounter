@@ -24,7 +24,7 @@ java -jar -Dlog4j.configurationFile=log4j.properties filewordcount-[version]-jar
 mvn clean install
 
 # Sample result output
-2018-06-10 12:57:12,077 c.t.e.f.FileWordCounter [main] Counting finish in 246793 ms! Found 2125960 different words on the file.
+2018-06-10 12:57:12,077 c.t.e.f.FileWordCounter [main] Counting finish in 246793 ms! Found 2125960 different words on the file.<br/>
 2018-06-10 12:57:12,497 c.t.e.f.Main [main] the: 80937452
 2018-06-10 12:57:12,497 c.t.e.f.Main [main] review: 55850363
 2018-06-10 12:57:12,497 c.t.e.f.Main [main] and: 39792781
