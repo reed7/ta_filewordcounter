@@ -1,0 +1,18 @@
+Count the word appearance on a text file. Supports file size up to tens of gigabytes.
+Result will be printed out on logs.
+
+* This program is only capable of handling text files
+* This program counts words disregarding case
+* "He's" will be counted as two words "he" and "s"
+
+Usage: java -jar -Dlog4j.configurationFile=path/log4j.properties path/filewordcount-[version].jar [options]
+
+-f,--file <arg>      File to be processed
+-o,--order <arg>     Optional. Specifies the order in which results are displayed: [inc]reasing | [dec]reasing.Default "dec".
+-W,--workers <arg>   Optional.Number of workers.Default 2xCPU_cores
+-w,--words <arg>     Optional.Number of top words statistics to show.Default 10.
+
+Recommend arguments:
+-Xms4G
+-Xmx4G
+

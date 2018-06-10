@@ -26,17 +26,17 @@ public class Main {
         file.setType(String.class);
         options.addOption(file);
 
-        Option numWorker = new Option("W", "workers", true,"Number of workers");
+        Option numWorker = new Option("W", "workers", true,"Optional.Number of workers. Default value is 2xCPU_cores.");
         numWorker.setRequired(false);
         numWorker.setType(Integer.class);
         options.addOption(numWorker);
 
-        Option nTopWords = new Option("w", "words", true,"Number of top words statistics to show");
+        Option nTopWords = new Option("w", "words", true,"Optional.Number of top words statistics to show.Default value is 10.");
         nTopWords.setRequired(false);
         nTopWords.setType(Integer.class);
         options.addOption(nTopWords);
 
-        Option resultOrder = new Option("o", "order", true,"Specifies the order in which results are displayed: [inc]reasing | [dec]reasing");
+        Option resultOrder = new Option("o", "order", true,"Optional.Specifies the order in which results are displayed: [inc]reasing | [dec]reasing. Default value is \"dec\".");
         resultOrder.setType(String.class);
         resultOrder.setRequired(false);
         options.addOption(resultOrder);
