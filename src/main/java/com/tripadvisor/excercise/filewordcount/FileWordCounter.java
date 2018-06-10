@@ -20,7 +20,7 @@ public class FileWordCounter {
 
     private static int MAX_WORKERS;
     private static long MAX_CHUNK_SIZE;
-    private static long SINGLE_THREADED_VALVE = 10*1024*1024;
+    private static long SINGLE_THREADED_THRESOLD = 10*1024*1024;
 
     static {
 
@@ -73,10 +73,10 @@ public class FileWordCounter {
         Map<String, AtomicInteger> countResult;
         long startTs = System.currentTimeMillis();
 
-        if(fileSize < SINGLE_THREADED_VALVE) {
+        if(fileSize < SINGLE_THREADED_THRESOLD) {
 
             LOGGER.info("File size less than {}MB, single threaded mode used.",
-                    SINGLE_THREADED_VALVE/1024/1024);
+                    SINGLE_THREADED_THRESOLD /1024/1024);
 
             countResult = new HashMap<>();
             Utils.countWordWithinRange(fileToCount, countResult);
