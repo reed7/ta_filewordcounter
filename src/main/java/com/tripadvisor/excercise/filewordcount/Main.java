@@ -73,10 +73,10 @@ public class Main {
             Map<String, AtomicInteger> countResult =
                     new FileWordCounter(inputFilePath, workers).countWordsInFile();
 
-            List<Utils.WordCountResult> orderedRet =
+            List<WordCountResult> orderedRet =
                     Utils.processResult(countResult, topWords, order);
 
-            for(Utils.WordCountResult result : orderedRet) {
+            for(WordCountResult result : orderedRet) {
                 LOGGER.info("{}: {}", result.getWord(), result.getCount());
             }
         } catch (Exception e) {

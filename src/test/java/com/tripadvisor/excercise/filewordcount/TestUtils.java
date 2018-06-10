@@ -22,7 +22,7 @@ public class TestUtils {
         resultMap.put("sss", new AtomicInteger(6));
         resultMap.put("123", new AtomicInteger(5));
 
-        List<Utils.WordCountResult> ret = Utils.processResult(resultMap, 4, "inc");
+        List<WordCountResult> ret = Utils.processResult(resultMap, 4, "inc");
         Assert.assertEquals(4, ret.size(), 4);
         Assert.assertEquals("123", ret.get(0).getWord());
         Assert.assertEquals("def", ret.get(3).getWord());
@@ -37,7 +37,7 @@ public class TestUtils {
         resultMap.put("sss", new AtomicInteger(6));
         resultMap.put("123", new AtomicInteger(5));
 
-        List<Utils.WordCountResult> ret = Utils.processResult(resultMap, 4, "dec");
+        List<WordCountResult> ret = Utils.processResult(resultMap, 4, "dec");
         Assert.assertEquals(4, ret.size());
         Assert.assertEquals("abc", ret.get(0).getWord());
         Assert.assertEquals("sss", ret.get(3).getWord());
@@ -50,7 +50,7 @@ public class TestUtils {
         resultMap.put("def", new AtomicInteger(8));
         resultMap.put("fff", new AtomicInteger(7));
 
-        List<Utils.WordCountResult> ret = Utils.processResult(resultMap, 9, "inc");
+        List<WordCountResult> ret = Utils.processResult(resultMap, 9, "inc");
         Assert.assertEquals(ret.size(), 3);
         Assert.assertEquals("fff", ret.get(0).getWord());
         Assert.assertEquals("def", ret.get(1).getWord());
@@ -63,7 +63,7 @@ public class TestUtils {
         resultMap.put("def", new AtomicInteger(8));
         resultMap.put("fff", new AtomicInteger(7));
 
-        List<Utils.WordCountResult> ret = Utils.processResult(resultMap, -1, "inc");
+        List<WordCountResult> ret = Utils.processResult(resultMap, -1, "inc");
         Assert.assertEquals(0, ret.size());
     }
 

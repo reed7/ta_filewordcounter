@@ -75,9 +75,9 @@ public class Utils {
         PriorityQueue<WordCountResult> pq = new PriorityQueue<>(
                 (r1, r2) -> {
                     if("dec".equals(order)){
-                        return r1.count - r2.count;
+                        return r1.getCount() - r2.getCount();
                     } else {
-                        return r2.count - r1.count;
+                        return r2.getCount() - r1.getCount();
                     }
                 });
 
@@ -95,23 +95,4 @@ public class Utils {
 
         return orderedRet;
     }
-
-    static class WordCountResult {
-        private String word;
-        private int count;
-
-        WordCountResult(String word, int count) {
-            this.word = word;
-            this.count = count;
-        }
-
-        public String getWord(){
-            return word;
-        }
-
-        public int getCount() {
-            return count;
-        }
-    }
-
 }
