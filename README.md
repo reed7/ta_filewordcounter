@@ -5,7 +5,7 @@ Result will be printed out on logs.
 * This program counts words disregarding case
 * "He's" will be counted as two words "he" and "s"
 
-# Usage:
+# Usage
 java -jar -Dlog4j.configurationFile=log4j.properties filewordcount-[version]-jar-with-dependencies.jar [options]
 
 ## Mandatory option:
@@ -16,7 +16,7 @@ java -jar -Dlog4j.configurationFile=log4j.properties filewordcount-[version]-jar
 -W,--workers <arg>   Number of workers.Default 2xCPU_cores
 -w,--words <arg>     Number of top words statistics to show.Default 10.
 
-# Recommend JVM options:
+# Recommend JVM options
 -Xms4G
 -Xmx4G
 
