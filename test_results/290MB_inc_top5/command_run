@@ -1,0 +1,1 @@
+java -jar -Xms4G -Xmx4G -Dlog4j.configurationFile=src/main/resources/log4j.properties target/filewordcount-1.0.jar -f /Users/wzhong/Desktop/TA/movies1.txt -W 8 -o inc -w 5

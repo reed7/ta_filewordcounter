@@ -1,0 +1,115 @@
+2018-06-10 13:01:09,005 c.t.e.f.FileWordCounter [main] FileWordCounter initialized with following property:[number of workers = 8, MAX_CHUNK_SIZE = 41161KB, filePath = /Users/wzhong/Desktop/TA/abc]
+2018-06-10 13:01:09,009 c.t.e.f.FileWordCounter [main] File size less than 10MB, single threaded mode used.
+2018-06-10 13:01:09,010 c.t.e.f.Utils [main] Counting word for range [0, 303]
+2018-06-10 13:01:09,011 c.t.e.f.Utils [main] Adding new word 0 into result.
+2018-06-10 13:01:09,011 c.t.e.f.Utils [main] Adding new word 1 into result.
+2018-06-10 13:01:09,011 c.t.e.f.Utils [main] Adding new word 2 into result.
+2018-06-10 13:01:09,011 c.t.e.f.Utils [main] Adding new word 3 into result.
+2018-06-10 13:01:09,011 c.t.e.f.Utils [main] Adding new word 4 into result.
+2018-06-10 13:01:09,011 c.t.e.f.Utils [main] Adding new word 5 into result.
+2018-06-10 13:01:09,012 c.t.e.f.Utils [main] Adding new word 6 into result.
+2018-06-10 13:01:09,012 c.t.e.f.Utils [main] Adding new word 7 into result.
+2018-06-10 13:01:09,012 c.t.e.f.Utils [main] Adding new word 8 into result.
+2018-06-10 13:01:09,012 c.t.e.f.Utils [main] Adding new word 9 into result.
+2018-06-10 13:01:09,012 c.t.e.f.Utils [main] Adding new word 10 into result.
+2018-06-10 13:01:09,012 c.t.e.f.Utils [main] Adding new word 11 into result.
+2018-06-10 13:01:09,012 c.t.e.f.Utils [main] Adding new word 12 into result.
+2018-06-10 13:01:09,012 c.t.e.f.Utils [main] Adding new word 13 into result.
+2018-06-10 13:01:09,013 c.t.e.f.Utils [main] Adding new word 14 into result.
+2018-06-10 13:01:09,013 c.t.e.f.Utils [main] Adding new word 15 into result.
+2018-06-10 13:01:09,013 c.t.e.f.Utils [main] Adding new word 16 into result.
+2018-06-10 13:01:09,013 c.t.e.f.Utils [main] Adding new word 17 into result.
+2018-06-10 13:01:09,013 c.t.e.f.Utils [main] Adding new word 18 into result.
+2018-06-10 13:01:09,013 c.t.e.f.Utils [main] Adding new word 19 into result.
+2018-06-10 13:01:09,013 c.t.e.f.Utils [main] Adding new word 20 into result.
+2018-06-10 13:01:09,013 c.t.e.f.Utils [main] Adding new word 21 into result.
+2018-06-10 13:01:09,013 c.t.e.f.Utils [main] Adding new word 22 into result.
+2018-06-10 13:01:09,014 c.t.e.f.Utils [main] Adding new word 23 into result.
+2018-06-10 13:01:09,014 c.t.e.f.Utils [main] Adding new word 24 into result.
+2018-06-10 13:01:09,014 c.t.e.f.Utils [main] Adding new word s into result.
+2018-06-10 13:01:09,014 c.t.e.f.Utils [main] Adding new word 25 into result.
+2018-06-10 13:01:09,014 c.t.e.f.Utils [main] Adding new word 26 into result.
+2018-06-10 13:01:09,014 c.t.e.f.Utils [main] Adding new word 27 into result.
+2018-06-10 13:01:09,014 c.t.e.f.Utils [main] Adding new word 28 into result.
+2018-06-10 13:01:09,014 c.t.e.f.Utils [main] Adding new word 29 into result.
+2018-06-10 13:01:09,015 c.t.e.f.Utils [main] Adding new word 30 into result.
+2018-06-10 13:01:09,015 c.t.e.f.Utils [main] Adding new word 31 into result.
+2018-06-10 13:01:09,015 c.t.e.f.Utils [main] Adding new word 32 into result.
+2018-06-10 13:01:09,015 c.t.e.f.Utils [main] Adding new word 33 into result.
+2018-06-10 13:01:09,015 c.t.e.f.Utils [main] Adding new word 34 into result.
+2018-06-10 13:01:09,015 c.t.e.f.Utils [main] Adding new word 35 into result.
+2018-06-10 13:01:09,015 c.t.e.f.Utils [main] Adding new word 36 into result.
+2018-06-10 13:01:09,015 c.t.e.f.Utils [main] Adding new word 37 into result.
+2018-06-10 13:01:09,015 c.t.e.f.Utils [main] Adding new word 38 into result.
+2018-06-10 13:01:09,016 c.t.e.f.Utils [main] Adding new word 39 into result.
+2018-06-10 13:01:09,016 c.t.e.f.Utils [main] Adding new word 40 into result.
+2018-06-10 13:01:09,016 c.t.e.f.Utils [main] Adding new word 41 into result.
+2018-06-10 13:01:09,016 c.t.e.f.Utils [main] Adding new word 42 into result.
+2018-06-10 13:01:09,016 c.t.e.f.Utils [main] Adding new word 43 into result.
+2018-06-10 13:01:09,016 c.t.e.f.Utils [main] Adding new word 44 into result.
+2018-06-10 13:01:09,016 c.t.e.f.Utils [main] Adding new word 45 into result.
+2018-06-10 13:01:09,016 c.t.e.f.Utils [main] Adding new word 46 into result.
+2018-06-10 13:01:09,017 c.t.e.f.Utils [main] Adding new word 47 into result.
+2018-06-10 13:01:09,017 c.t.e.f.Utils [main] Adding new word 48 into result.
+2018-06-10 13:01:09,017 c.t.e.f.Utils [main] Adding new word 49 into result.
+2018-06-10 13:01:09,017 c.t.e.f.Utils [main] Adding new word 50 into result.
+2018-06-10 13:01:09,017 c.t.e.f.Utils [main] Adding new word 51 into result.
+2018-06-10 13:01:09,017 c.t.e.f.Utils [main] Adding new word 52 into result.
+2018-06-10 13:01:09,017 c.t.e.f.Utils [main] Adding new word 53 into result.
+2018-06-10 13:01:09,017 c.t.e.f.Utils [main] Adding new word 54 into result.
+2018-06-10 13:01:09,018 c.t.e.f.Utils [main] Adding new word 55 into result.
+2018-06-10 13:01:09,018 c.t.e.f.Utils [main] Adding new word 56 into result.
+2018-06-10 13:01:09,018 c.t.e.f.Utils [main] Adding new word 57 into result.
+2018-06-10 13:01:09,018 c.t.e.f.Utils [main] Adding new word 58 into result.
+2018-06-10 13:01:09,018 c.t.e.f.Utils [main] Adding new word 59 into result.
+2018-06-10 13:01:09,018 c.t.e.f.Utils [main] Adding new word 60 into result.
+2018-06-10 13:01:09,018 c.t.e.f.Utils [main] Adding new word 61 into result.
+2018-06-10 13:01:09,018 c.t.e.f.Utils [main] Adding new word 62 into result.
+2018-06-10 13:01:09,019 c.t.e.f.Utils [main] Adding new word 63 into result.
+2018-06-10 13:01:09,019 c.t.e.f.Utils [main] Adding new word 64 into result.
+2018-06-10 13:01:09,019 c.t.e.f.Utils [main] Adding new word 65 into result.
+2018-06-10 13:01:09,019 c.t.e.f.Utils [main] Adding new word 66 into result.
+2018-06-10 13:01:09,019 c.t.e.f.Utils [main] Adding new word 67 into result.
+2018-06-10 13:01:09,019 c.t.e.f.Utils [main] Adding new word 68 into result.
+2018-06-10 13:01:09,019 c.t.e.f.Utils [main] Adding new word 69 into result.
+2018-06-10 13:01:09,019 c.t.e.f.Utils [main] Adding new word 71 into result.
+2018-06-10 13:01:09,020 c.t.e.f.Utils [main] Adding new word 72 into result.
+2018-06-10 13:01:09,020 c.t.e.f.Utils [main] Adding new word 73 into result.
+2018-06-10 13:01:09,020 c.t.e.f.Utils [main] Adding new word 74 into result.
+2018-06-10 13:01:09,020 c.t.e.f.Utils [main] Adding new word 75 into result.
+2018-06-10 13:01:09,020 c.t.e.f.Utils [main] Adding new word 76 into result.
+2018-06-10 13:01:09,020 c.t.e.f.Utils [main] Adding new word 77 into result.
+2018-06-10 13:01:09,020 c.t.e.f.Utils [main] Adding new word 78 into result.
+2018-06-10 13:01:09,020 c.t.e.f.Utils [main] Adding new word a into result.
+2018-06-10 13:01:09,021 c.t.e.f.Utils [main] Adding new word 79 into result.
+2018-06-10 13:01:09,021 c.t.e.f.Utils [main] Adding new word 80 into result.
+2018-06-10 13:01:09,021 c.t.e.f.Utils [main] Adding new word 81 into result.
+2018-06-10 13:01:09,021 c.t.e.f.Utils [main] Adding new word 82 into result.
+2018-06-10 13:01:09,021 c.t.e.f.Utils [main] Adding new word 83 into result.
+2018-06-10 13:01:09,021 c.t.e.f.Utils [main] Adding new word 84 into result.
+2018-06-10 13:01:09,021 c.t.e.f.Utils [main] Adding new word 85 into result.
+2018-06-10 13:01:09,022 c.t.e.f.Utils [main] Adding new word 86 into result.
+2018-06-10 13:01:09,022 c.t.e.f.Utils [main] Adding new word 87 into result.
+2018-06-10 13:01:09,022 c.t.e.f.Utils [main] Adding new word 88 into result.
+2018-06-10 13:01:09,022 c.t.e.f.Utils [main] Adding new word 89 into result.
+2018-06-10 13:01:09,022 c.t.e.f.Utils [main] Adding new word 90 into result.
+2018-06-10 13:01:09,022 c.t.e.f.Utils [main] Adding new word 91 into result.
+2018-06-10 13:01:09,022 c.t.e.f.Utils [main] Adding new word 92 into result.
+2018-06-10 13:01:09,022 c.t.e.f.Utils [main] Adding new word 93 into result.
+2018-06-10 13:01:09,023 c.t.e.f.Utils [main] Adding new word 94 into result.
+2018-06-10 13:01:09,023 c.t.e.f.Utils [main] Adding new word 95 into result.
+2018-06-10 13:01:09,023 c.t.e.f.Utils [main] Adding new word 96 into result.
+2018-06-10 13:01:09,023 c.t.e.f.Utils [main] Adding new word 97 into result.
+2018-06-10 13:01:09,023 c.t.e.f.Utils [main] Adding new word 98 into result.
+2018-06-10 13:01:09,023 c.t.e.f.Utils [main] Adding new word 99 into result.
+2018-06-10 13:01:09,023 c.t.e.f.FileWordCounter [main] Counting finish in 14 ms! Found 101 different words on the file.
+2018-06-10 13:01:09,061 c.t.e.f.Main [main] 0: 3
+2018-06-10 13:01:09,062 c.t.e.f.Main [main] 7: 2
+2018-06-10 13:01:09,063 c.t.e.f.Main [main] s: 2
+2018-06-10 13:01:09,063 c.t.e.f.Main [main] 90: 1
+2018-06-10 13:01:09,063 c.t.e.f.Main [main] 93: 1
+2018-06-10 13:01:09,064 c.t.e.f.Main [main] 94: 1
+2018-06-10 13:01:09,064 c.t.e.f.Main [main] 92: 1
+2018-06-10 13:01:09,064 c.t.e.f.Main [main] 96: 1
+2018-06-10 13:01:09,064 c.t.e.f.Main [main] 97: 1
+2018-06-10 13:01:09,064 c.t.e.f.Main [main] 87: 1
