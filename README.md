@@ -12,12 +12,12 @@ java -jar -Dlog4j.configurationFile=log4j.properties filewordcount-[version]-jar
 -f,--file <arg>      File to be processed
 
 ## Optional options:
--o,--order <arg>     Specifies the order in which results are displayed: [inc]reasing | [dec]reasing.Default "dec".
--W,--workers <arg>   Number of workers.Default 2xCPU_cores
--w,--words <arg>     Number of top words statistics to show.Default 10.
+-o,--order <arg>     Specifies the order in which results are displayed: [inc]reasing | [dec]reasing.Default "dec".<br/>
+-W,--workers <arg>   Number of workers.Default 2xCPU_cores<br/>
+-w,--words <arg>     Number of top words statistics to show.Default 10.<br/>
 
 # Recommend JVM options
--Xms4G
+-Xms4G<br/>
 -Xmx4G
 
 # Build the source code
