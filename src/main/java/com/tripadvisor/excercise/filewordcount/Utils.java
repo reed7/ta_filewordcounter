@@ -15,6 +15,12 @@ public class Utils {
 
     private static final Logger LOGGER = LogManager.getLogger(Utils.class);
 
+    /**
+     * Count words on the given file.
+     * @param fileToCount file object: RandomAccessFile
+     * @param result count result: Map
+     * @throws IOException
+     */
     public static void countWord(RandomAccessFile fileToCount,
                                  Map<String, AtomicInteger> result) throws IOException {
         long start = 0;
@@ -23,6 +29,13 @@ public class Utils {
         countWord(new BatchRange(start, end), fileToCount, result);
     }
 
+    /**
+     * Count words on the given file within the given range.
+     * @param range Range of the file, in bytes.
+     * @param fileToCount file object: RandomAccessFile
+     * @param result count result: Map
+     * @throws IOException
+     */
     public static void countWord(BatchRange range, RandomAccessFile fileToCount,
                                  Map<String, AtomicInteger> result) throws IOException {
         long start = range.getStart();
@@ -32,6 +45,8 @@ public class Utils {
 
         fileToCount.seek(start);
 
+        // Size of each task is controlled on the main thread,
+        // so it's safe to load the whole range into the memory here
         byte[] buffer = new byte[(int)(end - start + 1)];
         fileToCount.read(buffer);
 
@@ -48,6 +63,13 @@ public class Utils {
         }
     }
 
+    /**
+     * Process the counting result based on order type and number of results
+     * @param result The counting result: Map
+     * @param topN Number of results to return: int
+     * @param order The order of the results: String
+     * @return
+     */
     public static List<WordCountResult> processResult(Map<String, AtomicInteger> result, int topN, final String order) {
         PriorityQueue<WordCountResult> pq = new PriorityQueue<>(
                 (r1, r2) -> {
