@@ -1,9 +1,0 @@
-com/tripadvisor/excercise/filewordcount/Utils.class
-com/tripadvisor/excercise/filewordcount/Utils$WordCountResult.class
-com/tripadvisor/excercise/filewordcount/BatchRange.class
-com/tripadvisor/excercise/filewordcount/Test$FileReader.class
-com/tripadvisor/excercise/filewordcount/worker/BlockingExecutor.class
-com/tripadvisor/excercise/filewordcount/Main.class
-com/tripadvisor/excercise/filewordcount/Test.class
-com/tripadvisor/excercise/filewordcount/worker/WordCounter.class
-com/tripadvisor/excercise/filewordcount/FileWordCounter.class
