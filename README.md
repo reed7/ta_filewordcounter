@@ -5,10 +5,10 @@ Result will be printed out on logs.
 * This program counts words disregarding case
 * "He's" will be counted as two words "he" and "s"
 
-#Usage:
+# Usage:
 java -jar -Dlog4j.configurationFile=log4j.properties filewordcount-[version]-jar-with-dependencies.jar [options]
 
-##Mandatory option:
+## Mandatory option:
 -f,--file <arg>      File to be processed
 
 ##Optional options:
@@ -16,14 +16,14 @@ java -jar -Dlog4j.configurationFile=log4j.properties filewordcount-[version]-jar
 -W,--workers <arg>   Number of workers.Default 2xCPU_cores
 -w,--words <arg>     Number of top words statistics to show.Default 10.
 
-#Recommend JVM options:
+# Recommend JVM options:
 -Xms4G
 -Xmx4G
 
-#Build the source code
+# Build the source code
 mvn clean install
 
-#Sample result output
+# Sample result output
 2018-06-10 12:57:12,077 c.t.e.f.FileWordCounter [main] Counting finish in 246793 ms! Found 2125960 different words on the file.
 2018-06-10 12:57:12,497 c.t.e.f.Main [main] the: 80937452
 2018-06-10 12:57:12,497 c.t.e.f.Main [main] review: 55850363
