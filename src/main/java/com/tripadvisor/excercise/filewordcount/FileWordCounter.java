@@ -21,7 +21,7 @@ public class FileWordCounter {
     private static int MAX_WORKERS;
     private static long MAX_CHUNK_SIZE;
 
-    // Files size greater than this will be processed multiple threaded
+    // Files size greater than this will be processed multi-threaded
     private static long SINGLE_THREADED_THRESOLD = 10*1024*1024; // 10MB
 
     static {
@@ -47,7 +47,7 @@ public class FileWordCounter {
             this.filePath = filePath;
         }
 
-        if(numWorkers == -1) {
+        if(numWorkers == 0) {
             this.numWorkers = MAX_WORKERS;
         } else {
             if(numWorkers > MAX_WORKERS) {
@@ -67,7 +67,7 @@ public class FileWordCounter {
                 this.numWorkers, MAX_CHUNK_SIZE/1000, this.filePath);
     }
 
-    public Map<String, AtomicInteger> countWordsInFile() throws IOException {
+    public Map<String, AtomicInteger> countWordsInFile() throws Exception {
 
         RandomAccessFile fileToCount = new RandomAccessFile(this.filePath, "r");
         long fileSize = fileToCount.length();
@@ -75,7 +75,9 @@ public class FileWordCounter {
         Map<String, AtomicInteger> countResult;
         long startTs = System.currentTimeMillis();
 
-        if(fileSize <= SINGLE_THREADED_THRESOLD) {
+        if(fileSize <= 0) {
+            throw new Exception("Empty file.");
+        } else if(fileSize <= SINGLE_THREADED_THRESOLD) {
 
             LOGGER.info("File size less than {}MB, single threaded mode used.",
                     SINGLE_THREADED_THRESOLD /1024/1024);

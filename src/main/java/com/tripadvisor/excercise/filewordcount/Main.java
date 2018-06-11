@@ -14,7 +14,7 @@ public class Main {
 
     private static final Logger LOGGER = LogManager.getLogger(Main.class);
 
-    private static final String DEFAULT_WORKERS = "-1";
+    private static final String DEFAULT_WORKERS = "0";
     private static final String DEFAULT_TOP_WORDS = "10";
     private static final String DEFAULT_ORDER = "dec";
 
@@ -31,7 +31,7 @@ public class Main {
         numWorker.setType(Integer.class);
         options.addOption(numWorker);
 
-        Option nTopWords = new Option("w", "words", true,"Optional.Number of top words statistics to show.Default value is 10.");
+        Option nTopWords = new Option("w", "words", true,"Optional.Number of top words statistics to show, \n[1, 50] inclusive. Default value is 10.");
         nTopWords.setRequired(false);
         nTopWords.setType(Integer.class);
         options.addOption(nTopWords);
@@ -58,13 +58,21 @@ public class Main {
                 throw new ParseException("Value of --workers or --words need to be number!");
             }
 
+            if (workers < 0) {
+                throw new ParseException("Value of --workers should greater than 0!");
+            }
+
+            if(topWords <= 0 || topWords > 50) {
+                throw new ParseException("Value of --words needs to be in range [1, 50] inclusive!");
+            }
+
             order = cmd.getOptionValue("order", DEFAULT_ORDER).toLowerCase();
             if(!(order.equals("inc") || order.equals("dec"))) {
-                throw new ParseException("Value of --order is not valid!");
+                throw new ParseException("Value of --order is not valid: should be \"inc\" or \"dec\".");
             }
         } catch (ParseException e) {
             System.out.println(e.getMessage());
-            formatter.printHelp("java -jar path/filewordcount-[version].jar [options]", options);
+            formatter.printHelp("java -jar path/filewordcount-[version]-jar-with-dependencies.jar [options]", options);
 
             System.exit(1);
         }

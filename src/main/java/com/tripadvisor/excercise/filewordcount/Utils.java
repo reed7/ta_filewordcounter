@@ -24,7 +24,7 @@ public class Utils {
     public static void countWord(RandomAccessFile fileToCount,
                                  Map<String, AtomicInteger> result) throws IOException {
         long start = 0;
-        long end = fileToCount.length();
+        long end = fileToCount.length()-1;
 
         countWordWithinRange(new BatchRange(start, end), fileToCount, result);
     }
