@@ -3,12 +3,10 @@ package com.tripadvisor.excercise.filewordcount;
 import org.apache.commons.cli.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.core.config.ConfigurationFactory;
 
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicLong;
 
 public class Main {
 
@@ -82,7 +80,7 @@ public class Main {
                     new FileWordCounter(inputFilePath, workers).countWordsInFile();
 
             List<WordCountResult> orderedRet =
-                    Utils.processResult(countResult, topWords, order);
+                    Utils.getTopNWords(countResult, topWords, order);
 
             for(WordCountResult result : orderedRet) {
                 LOGGER.info("{}: {}", result.getWord(), result.getCount());

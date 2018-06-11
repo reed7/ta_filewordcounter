@@ -71,7 +71,7 @@ public class Utils {
      * @param order The order of the results: String
      * @return
      */
-    public static List<WordCountResult> processResult(Map<String, AtomicInteger> result, int topN, final String order) {
+    public static List<WordCountResult> getTopNWords(Map<String, AtomicInteger> result, int topN, final String order) {
         PriorityQueue<WordCountResult> pq = new PriorityQueue<>(
                 (r1, r2) -> {
                     if("dec".equals(order)){
