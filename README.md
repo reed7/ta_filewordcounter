@@ -2,6 +2,7 @@ Count the word appearance on a text file. Supports file size up to tens of gigab
 Result will be printed out on logs.
 
 * This program is only capable of handling text files
+* Words not from dictionary might cause problem e.g. a 1GB string without any space can crash the application.
 * This program counts words disregarding case
 * "He's" will be counted as two words "he" and "s"
 
