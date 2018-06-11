@@ -26,16 +26,16 @@ mvn package
 
 # Sample result output
 2018-06-10 12:57:12,077 c.t.e.f.FileWordCounter [main] Counting finish in 246793 ms! Found 2125960 different words on the file.<br/>
-2018-06-10 12:57:12,497 c.t.e.f.Main [main] the: 80937452
-2018-06-10 12:57:12,497 c.t.e.f.Main [main] review: 55850363
-2018-06-10 12:57:12,497 c.t.e.f.Main [main] and: 39792781
-2018-06-10 12:57:12,498 c.t.e.f.Main [main] a: 37752566
-2018-06-10 12:57:12,498 c.t.e.f.Main [main] of: 34191930
-2018-06-10 12:57:12,498 c.t.e.f.Main [main] to: 30432879
-2018-06-10 12:57:12,498 c.t.e.f.Main [main] is: 25975298
-2018-06-10 12:57:12,498 c.t.e.f.Main [main] it: 22609895
-2018-06-10 12:57:12,498 c.t.e.f.Main [main] i: 21809717
-2018-06-10 12:57:12,498 c.t.e.f.Main [main] in: 20938574
+2018-06-10 12:57:12,497 c.t.e.f.Main [main] the: 80937452<br/>
+2018-06-10 12:57:12,497 c.t.e.f.Main [main] review: 55850363<br/>
+2018-06-10 12:57:12,497 c.t.e.f.Main [main] and: 39792781<br/>
+2018-06-10 12:57:12,498 c.t.e.f.Main [main] a: 37752566<br/>
+2018-06-10 12:57:12,498 c.t.e.f.Main [main] of: 34191930<br/>
+2018-06-10 12:57:12,498 c.t.e.f.Main [main] to: 30432879<br/>
+2018-06-10 12:57:12,498 c.t.e.f.Main [main] is: 25975298<br/>
+2018-06-10 12:57:12,498 c.t.e.f.Main [main] it: 22609895<br/>
+2018-06-10 12:57:12,498 c.t.e.f.Main [main] i: 21809717<br/>
+2018-06-10 12:57:12,498 c.t.e.f.Main [main] in: 20938574<br/>
 
 
 Several typical test cases can be found under test_results/
